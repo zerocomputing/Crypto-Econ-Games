@@ -1,0 +1,13 @@
+[package]
+name = "competition"
+version = "0.1.0"
+
+
+[[bin]]
+name = "prove"
+path = "main.rs"
+
+[dependencies]
+hex = "0.4.3"
+rust-crypto = "0.2.36"
+rand = "0.8.5"
